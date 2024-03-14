@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #f8f4ec;
+        margin: 0px;
+        padding: 0;
+      }
+
+      .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 20px;
+        background-color: white;
+        height: 100px;
+        border-radius: 20px;
+        margin: 10px;
+      }
+      ul,
+      li {
+        display: inline-block;
+        padding-left: 20px;
+        font-weight: bold;
+      }
+      ul,
+      li,
+      a {
+        text-decoration: none;
+        color: #402b3a;
+        font-size: 20px;
+      }
+      ul,
+      li,
+      a:hover {
+        color: #d63484;
+        transition: 0.5s;
+      }
+      ul,
+      li:hover {
+        transform: translate(2px, -2px);
+      }
+      * {
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 20px;
+        border-radius: 20px;
+        background-color: #d63484;
+        color: #f8f4ec;
+      }
+      button:hover {
+        background-color: #402b3a;
+        transition: 0.3s;
+        transform: translate(1px, -2px);
+      }
+      .logo {
+        border-radius: 20px;
+      }
+      .logo:hover {
+        transform: translate(2px, -2px);
+        transition: 0.5s;
+        box-shadow: 1px 1px 9px #d63484;
+      }
+
+      .slogen {
+        width: 500px;
+      }
+      .slogen > h1 {
+        line-height: 55px;
+        font-size: 55px;
+      }
+      .slogen > h2 {
+        font-size: 30px;
+      }
+      .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .main > .slogen {
+        position: relative;
+        left: 200px;
+      }
+      .main > .img {
+        position: relative;
+        right: 200px;
+        top: 50px;
+      }
+      .slogen > button {
+        padding: 15px 25px;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Englebert&family=Farsan&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Play:wght@400;700&family=Poppins&family=Teko:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <nav class="navbar">
+        <img
+          src="./Images/BB (1).jpg"
+          alt=""
+          width="120px"
+          height="100px"
+          class="logo"
+        />
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="./aboutus.html">About us</a></li>
+          <li><a href="./menu.html">Menu</a></li>
+          <li><a href="">Team</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+        <button><span class="order">Order Now</span></button>
+      </nav>
+    </div>
+    <div class="main">
+      <div class="slogen">
+        <h2>Welcome to <span style="color: #d63484">B</span>B,</h2>
+        <h1>"Indulge in Every Scoop, Taste the Joy of Ice Cream!"</h1>
+        <br />
+        <button>About us</button>
+      </div>
+      <div class="img">
+        <img
+          src="./Images/transparent-ice-cream-delicious-ci1.png"
+          alt=""
+          width="350px"
+          height="600px"
+        />
+      </div>
+    </div>
+  </body>
+</html>

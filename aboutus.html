@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+      }
+      body {
+        background-color: #f8f4ec;
+        margin: 0px;
+        padding: 0;
+      }
+      .about > span {
+        color: #d63484;
+        font-size: 50px;
+      }
+
+      .about {
+        font-size: 40px;
+        margin: 50px;
+        margin-left: 200px;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        margin-bottom: 20px;
+      }
+      .img {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        margin-left: 300px;
+      }
+      .para {
+        width: 400px;
+        height: 500px;
+        margin-top: 50px;
+        overflow: scroll;
+        line-height: 30px;
+        text-align: left;
+        position: relative;
+        right: 90px;
+      }
+      .para > h1 > span {
+        color: #d63484;
+      }
+      .para > h1 {
+        font-size: 50px;
+        line-height: 40px;
+      }
+      .bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .bottom > .bot {
+        width: 300px;
+        height: 200px;
+      }
+      .bottom > .bot > h1 {
+        text-align: center;
+        color: #d63484;
+        font-size: 40px;
+      }
+      .bottom > .bot > h3 {
+        text-align: center;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Englebert&family=Farsan&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Play:wght@400;700&family=Poppins&family=Teko:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="about"><span>A</span>bout us</h1>
+    <div class="container">
+      <div class="img">
+        <img src="./Images/about.png" alt="" width="600px" height="600px" />
+      </div>
+
+      <div class="para">
+        <h1><span>BITE</span>BLISS Icecream's</h1>
+        <p>
+          Welcome to Bite Bliss, where every scoop is a journey into pure
+          delight! Founded in 2019, Bite Bliss has quickly become a cherished
+          destination for ice cream lovers around the globe. Step into our
+          virtual parlour and prepare to be enchanted by a world of creamy
+          indulgence. From timeless classics to daring innovations, our
+          extensive menu boasts an array of flavors to suit every craving and
+          occasion. Whether you're craving the comforting familiarity of velvety
+          vanilla or yearning for the exotic allure of mango chili lime, we have
+          something to tantalize every taste bud. But Bite Bliss is more than
+          just a purveyor of frozen treats; it's a celebration of life's sweet
+          moments. Our commitment to quality extends beyond ingredients, as each
+          batch is handcrafted with care to ensure a texture that is as smooth
+          as it is indulgent. Join us in our pursuit of happiness, one scoop at
+          a time. Explore our tantalizing flavors, discover new favorites, and
+          treat yourself to a taste of bliss with Bite Bliss – where every bite
+          is an invitation to savor the joy of life. What sets Bite Bliss apart
+          is not just the quality of our ingredients or the perfection of our
+          recipes, but the passion infused into every scoop. Each batch is
+          churned with care, ensuring a smooth, velvety texture that melts
+          seamlessly on the tongue, leaving behind a lingering sense of
+          satisfaction. But Bite Bliss is more than just a purveyor of ice
+          cream; it's a symbol of joy, bringing people together to savor life's
+          sweet moments. Whether it's a scoop shared with loved ones on a sunny
+          afternoon or a pint savored in solitude after a long day, Bite Bliss
+          is there to elevate ordinary moments into extraordinary memories. With
+          a commitment to excellence and a dedication to spreading happiness,
+          Bite Bliss continues to redefine the ice cream experience, one
+          delicious bite at a time."
+        </p>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="bot year">
+        <h1>5 years</h1>
+
+        <h3>Excellence in production</h3>
+      </div>
+      <div class="bot branch">
+        <h1>10+</h1>
+
+        <h3>Branches across India</h3>
+      </div>
+      <div class="bot customer">
+        <h1>1,00,000+</h1>
+
+        <h3>Happy Customers</h3>
+      </div>
+      <div class="bot workers">
+        <h1>500+</h1>
+
+        <h3>Dedicated Workers</h3>
+      </div>
+    </div>
+  </body>
+</html>
